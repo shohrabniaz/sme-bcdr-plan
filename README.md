@@ -1,24 +1,40 @@
 # Business Continuity and Disaster Recovery Plan for a Professional Services SME
 
-Portfolio pack by Md Shohrab Hossen Niaz. Fictional / laboratory SME context unless noted. Professional delivery artefact — not a course-code wrapper.
+**Author:** Md Shohrab Hossen Niaz  
+**Focus:** bcdr  
+**Visibility guidance:** public-ok
+
+## Overview
+
+Matches HA/DR/cloud spend work you already do; research packaging for resilience.
 
 ## Research questions
 
-1. What are critical processes and dependencies?
-2. What RTO/RPO targets are realistic?
-3. How is the plan exercised?
+1. What business problem does “Business Continuity and Disaster Recovery Plan for a Professional Services SME” solve for an SME or partner organisation?
+2. Which artefacts demonstrate a credible, implementable solution?
+3. How is success measured without overstating lab or synthetic evidence?
 
-## Artefacts
+## Deliverables
 
 - BIA summary
-- BC/DR plan outline
+- BC/DR outline
 - exercise schedule
+- Report and presentation (`Final_Submission/`)
+- Evaluation scorecard (`02_Evaluation/`)
+- Design notes (`01_Design/`)
+- Baseline evidence JSON (`evidence/`)
 
-## Contents
+## Repository layout
 
-- `Final_Submission/` — report, slides, read-me
-- `01_Design/` — design and method notes
-- `02_Evaluation/` — workbook / scorecard
-- `evidence/` — synthetic or lab JSON baseline
+```
+01_Design/           Design and method notes
+02_Evaluation/       Scorecard workbook
+evidence/            Baseline evidence model
+Final_Submission/    Report, slides, appendices
+```
 
-Repository: `business-continuity-and-disaster-recovery-plan-for-a-pr`
+## Limits
+
+Synthetic or laboratory baselines are labelled. No production tenant secrets. Where a topic could imply offensive techniques, this pack stays defensive and high-level.
+
+**GitHub:** `sme-bcdr-plan`

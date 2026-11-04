@@ -1,10 +1,17 @@
 {
-  "seq": 10,
   "title": "Business Continuity and Disaster Recovery Plan for a Professional Services SME",
-  "slug": "business-continuity-and-disaster-recovery-plan-for-a-pr",
+  "old_slug": "business-continuity-and-disaster-recovery-plan-for-a-pr",
+  "slug": "sme-bcdr-plan",
   "folder": "Business_Continuity_And_Disaster_Recovery_Plan_For",
   "kind": "bcdr",
-  "body_words": 249,
+  "body_words": 329,
+  "source": "SCI700",
   "project_id": "Project 16",
-  "source": "SCI700"
+  "public": {
+    "public_ok": true,
+    "tier": "public-ok",
+    "reasons": [
+      "Strong portfolio narrative; synthetic baseline is fine for public"
+    ]
+  }
 }
